@@ -17,7 +17,7 @@ def duplicate_encode(word):
                 dictionary[key] += 1 
                 #print(dictionary)
                 
-    #assign replacement value    
+    #assign replacement value for letter in word
     for letter in word:
          if letter in dictionary:
             if dictionary[letter] == 1:
