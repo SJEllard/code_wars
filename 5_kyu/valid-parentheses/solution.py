@@ -9,9 +9,7 @@ def valid_parentheses(string):
             try:
                 stack.pop()
             except:
-                print(stack)
                 return False
-    print(stack)
     if len(stack) == 0:
         return True
     else:
